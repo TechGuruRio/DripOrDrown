@@ -1,6 +1,0 @@
-run = "run = \"javac DripOrDrown.java && java DripOrDrown\""
-[nix]
-channel = "stable-24_05"
-
-[deployment]
-run = ["sh", "-c", "run = \"javac DripOrDrown.java && java DripOrDrown\""]
